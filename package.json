@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/hingeargv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hinge validation gates for argv inputs before they hit prod.",
+  "bin": {
+    "hingeargv": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/hingeargv.git"
+  },
+  "homepage": "https://theworker02.github.io/hingeargv/",
+  "keywords": [
+    "hinge",
+    "argv",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
